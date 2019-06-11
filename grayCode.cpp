@@ -16,6 +16,12 @@
         return res;
     }
 
-int main(){
 
-}
+ int main() 
+{ 
+    int n = 3; 
+    vector<int> code = grayCodes(n); 
+    for (int i = 0; i < code.size(); i++)  
+        cout << code[i] << endl;     
+    return 0; 
+} 
